@@ -20,7 +20,7 @@ function withdraw() {
         window.alert("Your balance is insufficient for this service");
 
     } else {
-        var wzdrawal;
+        let wzdrawal;
 
         wzdrawal = initialamount - x;
         window.alert("windrow made & your remaining balance is : " + wzdrawal);

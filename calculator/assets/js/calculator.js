@@ -1,6 +1,6 @@
 //Simple Calculator!!!
 
-opratercontainer = ['1: Addition\n', '2: Subtraction\n', '3: multiplication\n', '4: Division\n'];
+opratercontainer = ['1: Addition\n', '2: Subtraction\n', '3: multiplication\n', '4: Division\n', '5: Square Number'];
 
 let entry;
 entry = window.prompt(opratercontainer);
@@ -18,6 +18,9 @@ switch (entry) {
         break;
     case "4":
         division();
+        break;
+    case "5":
+        square();
         break;
     default:
         window.prompt("Error Out of range!!..")
@@ -78,6 +81,17 @@ function division() {
         window.alert("Your Answer is: " + z);
     }
 
+
+
+}
+
+function square() {
+    let answer;;
+    let x = prompt("Enter the number to be squared")
+    let y = parseInt(x);
+
+    answer = Math.pow(x, 2);
+    window.alert("Square of number is: " + answer)
 
 
 }
