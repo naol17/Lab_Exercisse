@@ -60,10 +60,6 @@ function transfer(x, y) {
         }
     }
 
-
-
-
-
 }
 
 

@@ -20,7 +20,7 @@ switch (entry) {
         division();
         break;
     default:
-        window.prompt("Error Out of range!!.")
+        window.prompt("Error Out of range!!..")
         break;
 
 }
