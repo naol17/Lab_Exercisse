@@ -71,10 +71,13 @@ function division() {
     v = parseInt(y);
 
     if (v < 1) {
-        window.alert("pls enter num greater than 0 for dinomnetor")
+        window.alert("Sorry number can't divided for Zero!!! ")
+
     } else {
         var z = w / v;
-        window.alert("Your answer is: " + z);
+        window.alert("Your Answer is: " + z);
     }
+
+
 
 }
