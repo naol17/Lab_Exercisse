@@ -68,8 +68,8 @@ function multiplication() {
 }
 
 function division() {
-    let x = prompt("first num");
-    let y = prompt("second num");
+    let x = prompt("Enter The Numerator");
+    let y = prompt("Enter The Denominator");
     w = parseInt(x);
     v = parseInt(y);
 
